@@ -1,0 +1,228 @@
+*{
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+}
+body{
+	    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 14px;
+}
+
+.navigation-bar{
+	width: 1400px;
+	height: 60px;
+	background-color: #006986;
+}
+
+.navigation-bar ul li{
+	list-style: none;
+}
+
+.navigation-bar ul li.first{
+	background-color: #D1D4D4;
+}
+
+.navigation-bar ul li{
+	float: left;
+	width: 200px;
+	height: 60px; 
+}
+
+.navigation-bar ul li.first a{
+	color:#006986;
+}
+
+.navigation-bar ul li a{
+	display: block;
+	width: 200px;
+	height: 60px; 
+	text-align: center;
+	line-height: 60px;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navigation-bar ul li a:hover{
+	background-color:#D1D4D4;
+	color:#006986; 
+}
+
+.main{
+	width: 1400px;
+	height: 854px;
+	background-color: #FFFFFF;
+}
+
+.main .notice{
+	float: left;
+	width: 452px;
+	margin-top: 42px;
+	margin-left: 19px;
+	background: url(images/通知公告.png) no-repeat;
+	padding-top: 46px;
+}
+
+.main .notice img{
+	float: left;
+}
+.main .notice ul{
+	list-style: none;
+}
+
+.main .notice ul li{
+	padding-top: 27px;
+	padding-left: 17px;
+}
+
+.main .notice ul li a{
+	text-decoration: none;
+	color:#505252;
+}
+.main .notice ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main .notice  ul li span{
+	float: right;
+	color:#0384A8;
+}
+.main .news{
+	float: right;
+	width: 889px;
+	height: 367px;
+	margin-top: 42px;
+	margin-right: 19px;
+	background: url(images/专题要闻.png) no-repeat;
+}
+.main .news .picture{
+	float: left;
+	border: 1px solid black;
+	width: 383px;
+	height: 312px;
+	margin-top: 58px;
+}
+.main .news .picture img{
+	width: 373px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.main .news .picture p{
+	text-align: center;
+	line-height: 50px;
+}
+.main .news .paragraph{
+	float:left;
+	width: 474px;
+	height: 95px;
+	margin-left: 21px;
+	margin-top: 60px;
+}
+.main .news .paragraph h3{
+	margin-left: 66px;
+	margin-top: 15px;
+}
+.main .news .paragraph p{
+	text-indent: 43px;
+	margin-top: 18px;
+}
+.main .news .dot img{
+	float: left;
+	margin-left: 13px;
+	margin-top: 19px;
+}
+.main .news .dot ul{
+	float: left;
+	list-style: none;
+}
+.main .news .dot ul li{
+	margin-top: 19px;
+	margin-left: 13px;
+}
+.main .news .dot ul li a{
+	color:#505252;
+	text-decoration: none;
+}
+.main .news .dot ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main .resource{
+	float: left;
+	width: 572px;
+	height: 373px;
+	margin-top: 37px;
+	background: url(images/学习资料.png) no-repeat;
+}
+.main .resource img{
+	float: left;
+	margin-top: 51px;
+	margin-left: 14px;
+}
+.main .resource ul{
+	list-style: none;
+}
+.main .resource ul li{
+	margin-top: 79px;
+	margin-left: 41px;
+}
+.main .resource ul li a{
+	text-decoration: none;
+	color:#505252;
+}
+.main .resource ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main .education{
+	float:left;
+	width: 571px;
+	height: 372px;
+	margin-top: 37px;
+	margin-left: 17px;
+	background: url(images/教育改革.png) no-repeat;
+}
+.main .education img{
+	float: left;
+	margin-left: 16px;
+	margin-top: 51px;
+}
+.main .education ul{
+	list-style: none;
+}
+.main .education ul li{
+	margin-top: 79px;
+	margin-left: 41px;
+}
+.main .education ul li a{
+	text-decoration: none;
+	color:#505252;
+}
+.main .education ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.main .link{
+	float: left;
+	width: 179px;
+	height: 379px;
+	border: 1px solid black;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.main .link h2{
+	text-align: center;
+	line-height: 54px;
+	color:#0384A8;
+}
+.weilan{
+	width: 1400px;
+	height: 117px;
+	background-color:#0384A8; 
+	color:#FFFEFC;
+}
+.weilan p{
+	text-align: center;
+	vertical-align: middle;
+}
