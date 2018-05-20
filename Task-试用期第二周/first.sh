@@ -1,11 +1,11 @@
 #!/bin/sh
 # this is my first shell
-echo "please enter your name"
-read NAME
-echo "hello ,$NAME"
-echo "please enter your you age"
-read AGE
-echo "your age is :$AGE"
-echo "please enter your sex"
-read SEX
-echo "your sex is :$SEX"
+echo "git add ."
+git add .
+echo "git commit"
+echo "请输入commit的注释信息："
+comment ="commit new code"
+read comment
+git commit -m "$comment"
+echo "git push origin master"
+git push origin master
