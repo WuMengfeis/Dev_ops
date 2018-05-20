@@ -4,7 +4,6 @@ echo "git add ."
 git add .
 echo "git commit"
 echo "请输入commit的注释信息："
-comment ="commit new code"
 read comment
 git commit -m "$comment"
 echo "git push origin master"
